@@ -18,5 +18,6 @@ galleryClass.insertAdjacentHTML('beforeend', markup);
 
 new SimpleLightbox('.gallery a', {
   captionDelay: 250,
+  captionsData: 'alt',
 });
 // Change code below this line
